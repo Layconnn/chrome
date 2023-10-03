@@ -1,6 +1,10 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .container{
-    max-width: 18.8rem;
     display: flex;
+    width: 18.8rem;
     align-items: center;
     flex-direction: column;
     padding: 1.5rem;
@@ -149,6 +153,9 @@
     font-family: 'Work sans';
     font-weight: 500;
     width: 100%;
+    outline: none;
+    cursor: pointer;
+    border: 2px solid white;
 }
 .record:hover{
     background-color: #928FAB;
