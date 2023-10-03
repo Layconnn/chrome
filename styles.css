@@ -1,0 +1,155 @@
+.container{
+    max-width: 18.8rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding: 1.5rem;
+    box-shadow: 0px 4px 20px 0px rgba(0, 0, 0, 0.10);
+}
+.soffer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+    max-width: 15.75rem;
+    width: 100%;
+}
+.gaa{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.sub{
+    display: flex;
+    gap: 0.5rem;
+    justify-content: space-between;
+    margin-bottom: 1rem;
+}
+.name{
+    font-family: 'Sora';
+    font-weight: 700;
+    flex-direction: column;
+    color: #120B48;
+}
+.top{
+    display: flex;
+    align-items: center;
+    gap: 0.75rem;
+}
+.descrip{
+    font-family: 'Work sans';
+    font-weight: 400;
+    font-size: 0.875rem;
+    color: #413C6D;
+    max-width: 14.0625rem;
+    width: 100%;
+    margin-bottom: 2rem;
+    line-height: normal;
+}
+.tab{
+    max-width: 15.75rem;
+    width: 100%;
+    padding: 0 2rem;
+    margin-bottom: 1.5rem;
+}
+.sub-tab{
+    max-width: 11.8rem;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+}
+.tab1{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.full{
+    color: #928FAB;
+    font-family: 'Work sans';
+    font-size: 0.875rem;
+    font-weight: 500;
+}
+.tab2{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem;
+}
+.current{
+    color: #413C6D;
+    font-family: 'Work sans';
+    font-size: 0.875rem;
+    font-weight: 600;
+}
+.switch-cam{
+    padding: 0.75rem;
+    padding-left: 1rem;
+    max-width: 15.75rem;
+    border-radius: 0.875rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    border: 2px solid var(--primary-primary-600, #100A42);
+}
+.cam-con{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.cam{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.camera{
+    color: #100A42;
+    font-family: 'Work sans';
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+.switch-aud{
+    padding: 0.75rem;
+    padding-left: 1rem;
+    max-width: 15.75rem;
+    width: 100%;
+    margin-bottom: 1.5rem;
+    border-radius: 0.875rem;
+    border: 2px solid var(--primary-primary-600, #100A42);
+}
+.aud-com{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.aud{
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+.audio{
+    color: #100A42;
+    font-family: 'Work sans';
+    font-weight: 600;
+    font-size: 0.875rem;
+}
+.record{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 0.75rem;
+    background-color: #120B48;
+    margin-bottom: 1rem;
+    padding: 1rem;
+    color: #FAFDFF;
+    font-size: 1rem;
+    font-family: 'Work sans';
+    font-weight: 500;
+    width: 100%;
+}
+.record:hover{
+    background-color: #928FAB;
+}
